@@ -15,7 +15,7 @@ export class Rocket {
 
   sumMass(items: Payload[]): number {
     let mass: number = 0;
-    for (let i = 0; i > items.length; i++) {
+    for (let i = 0; i < items.length; i++) {
       mass += items[i].massKg;
     }
     return mass;
